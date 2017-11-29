@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Regna Bootstrap Template</title>
+  <title>Trashy cash</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -24,6 +24,11 @@
   <!-- Main Custom Stylesheet-->
   <link href="css/style.css" rel="stylesheet">
 
+  <!--bootstrap file input-->
+  <link rel="stylesheet" href="lib/bootstrap-fileinput/css/fileinput.min.css">
+
+  <!--font awesome-->
+<link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
   
 </head>
 <body>
@@ -31,7 +36,7 @@
 <!--==========================
   Header
   ============================-->
-  <header id="header">
+  <header id="header" style="background-color: #556B30;">
     <div class="container">
 
       <div id="logo" class="pull-left">
@@ -69,15 +74,93 @@
       </nav><!-- #nav-menu-container -->
     </div>
  <body>
-     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfLsSIAt1y_o8FM-UbKfz3Cb-Qn1ecVWnhMZjjjKS8A0uUiVQ/viewform?embedded=true"
-      width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+     
+     
+     <div class="container">
+
+<div class="row">
+    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+		<form role="form">
+			<h2>Please Sign Up <small>It's free and always will be.</small></h2>
+		<hr>
+    
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<div class="form-group">
+                        <input type="text" name="first_name" id="first_name" class="form-control input-lg" placeholder="First Name" tabindex="1">
+					</div>
+				</div>
+
+
+
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<div class="form-group">
+						<input type="text" name="last_name" id="last_name" class="form-control input-lg" placeholder="Last Name" tabindex="2">
+					</div>
+				</div>
+			</div>
+
+      
+			<div class="form-group">
+				<input type="text" name="display_name" id="display_name" class="form-control input-lg" placeholder="Product Name" tabindex="3">
+			</div>
+			<div class="form-group">
+				<input type="number" name="mobile" id="mobile" class="form-control input-lg" placeholder="Mobile Number" tabindex="4">
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<div class="form-group">
+						<input type="password" name="password" id="password" class="form-control input-lg" placeholder="Password" tabindex="5">
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<div class="form-group">
+						<input type="password" name="password_confirmation" id="password_confirmation" class="form-control input-lg" placeholder="Confirm Password" tabindex="6">
+					</div>
+				</div>
+			</div>
+
+      <div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12">
+					<div class="form-group">
+						<input id="input-id" type="file" class="file input-lg" data-preview-file-type="text" >
+					</div>
+				</div>
+				
+			</div>
+
+      
+			<div class="row">
+				<div class="col-xs-4 col-sm-3 col-md-3">
+					<span class="button-checkbox">
+						<button type="button" class="btn" data-color="info" tabindex="7">I Agree</button>
+                        <input type="checkbox" name="t_and_c" id="t_and_c" class="hidden" value="1">
+					</span>
+				</div>
+				<div class="col-xs-8 col-sm-9 col-md-9">
+					 By clicking <strong class="label label-primary">Register</strong>, you agree to the <a href="#" data-toggle="modal" data-target="#t_and_c_m">Terms and Conditions</a> set out by this site, including our Cookie Use.
+				</div>
+			</div>
+			
+			<hr>
+			<div class="row">
+				<div class="col-xs-12 col-md-6"><input type="submit" value="Register" class="btn btn-primary btn-block btn-lg" tabindex="7"></div>
+				<div class="col-xs-12 col-md-6"><a href="#" class="btn btn-success btn-block btn-lg">Sign In</a></div>
+			</div>
+		</form>
+	</div>
+</div>
+
+
+
+
  </body>
 
 
 
             <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/jquery/jquery-3.2.1.min.js"></script>
+  <script src="lib/jquery/jquery-migrate-3.0.1.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="lib/easing/easing.min.js"></script>
   <script src="lib/wow/wow.min.js"></script>
@@ -93,5 +176,10 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+
+  <!--bootstrap file input-->
+ <script src="lib/bootstrap-fileinput/js/fileinput.min.js"></script>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/4.4.5/themes/fa/theme.js"></script>
   </body>
 </html>
