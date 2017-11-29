@@ -8,9 +8,10 @@ h1{
 }
 
 #about{
-   background: #556b30;
-   color:#fff;
+   /*background: #556b30;*/
+   /*color:#fff;*/
    margin-bottom: 30px;
+   
 }
 /*--------------------------------------------------------------
 # Header
@@ -464,6 +465,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #fff;
   background-size: cover;
   padding: 80px 0 60px 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/images.jpg) fixed center center;
+    /*background-size: cover;*/
+    padding: 80px 0;
 }
 
 #procedure .box {
